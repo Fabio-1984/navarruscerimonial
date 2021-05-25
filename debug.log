@@ -1,0 +1,71 @@
+[1214/181558.970:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\simon\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\1c0d4031-2a0d-4bcc-a6a5-31e41c5a5e3e: O sistema não pode encontrar o caminho especificado. (0x3)
+[1214/181601.402:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1214/181744.491:ERROR:process_info.cc(359)] UncheckedAllocate
+[1214/181744.539:ERROR:process_info.cc(359)] UncheckedAllocate
+[1214/181850.013:ERROR:process_info.cc(359)] UncheckedAllocate
+[1214/181850.013:ERROR:process_info.cc(359)] UncheckedAllocate
+[1214/181850.021:ERROR:process_info.cc(359)] UncheckedAllocate
+[1214/181856.492:ERROR:process_info.cc(359)] UncheckedAllocate
+[1214/181856.492:ERROR:process_info.cc(359)] UncheckedAllocate
+[1214/181856.828:ERROR:process_info.cc(359)] UncheckedAllocate
+[1215/185814.361:ERROR:process_info.cc(359)] UncheckedAllocate
+[1215/185814.361:ERROR:process_info.cc(359)] UncheckedAllocate
+[1215/185839.239:ERROR:process_info.cc(359)] UncheckedAllocate
+[1215/185859.954:ERROR:process_info.cc(359)] UncheckedAllocate
+[1215/185909.301:ERROR:process_info.cc(359)] UncheckedAllocate
+[1215/190350.547:ERROR:process_info.cc(359)] UncheckedAllocate
+[1215/190522.461:ERROR:process_info.cc(359)] UncheckedAllocate
+[1216/171230.487:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
+[1216/171819.786:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1216/173917.491:ERROR:process_info.cc(359)] UncheckedAllocate
+[1216/173917.507:ERROR:process_info.cc(359)] UncheckedAllocate
+[1216/191050.846:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1216/191432.044:ERROR:process_info.cc(359)] UncheckedAllocate
+[1216/191432.340:ERROR:process_info.cc(359)] UncheckedAllocate
+[1216/191432.340:ERROR:process_info.cc(359)] UncheckedAllocate
+[1216/192006.174:ERROR:process_info.cc(359)] UncheckedAllocate
+[1216/192856.106:ERROR:process_info.cc(359)] UncheckedAllocate
+[1216/193031.612:ERROR:process_info.cc(359)] UncheckedAllocate
+[1216/195130.945:ERROR:process_info.cc(359)] UncheckedAllocate
+[1218/172658.760:ERROR:process_info.cc(359)] UncheckedAllocate
+[1218/172658.926:ERROR:process_info.cc(359)] UncheckedAllocate
+[1218/172658.934:ERROR:process_info.cc(359)] UncheckedAllocate
+[1218/172658.950:ERROR:process_info.cc(359)] UncheckedAllocate
+[1218/172823.107:ERROR:process_info.cc(359)] UncheckedAllocate
+[1218/173003.887:ERROR:process_info.cc(359)] UncheckedAllocate
+[1218/173004.343:ERROR:process_info.cc(359)] UncheckedAllocate
+[1218/173004.351:ERROR:process_info.cc(359)] UncheckedAllocate
+[1218/173041.846:ERROR:file_io.cc(135)] WriteFile: O pipe está sendo fechado. (0xE8)
+[1221/171435.410:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\simon\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\248a3273-350a-4850-a04b-4248acd81b84: O sistema não pode encontrar o caminho especificado. (0x3)
+[1221/171435.447:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1222/181547.370:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1222/195133.656:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1225/184125.957:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1228/170532.636:ERROR:process_info.cc(359)] UncheckedAllocate
+[1228/170855.134:ERROR:process_info.cc(359)] UncheckedAllocate
+[1228/171712.077:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1228/180927.906:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1228/190607.000:ERROR:process_info.cc(359)] UncheckedAllocate
+[1228/191035.575:ERROR:process_info.cc(359)] UncheckedAllocate
+[1228/191445.060:ERROR:process_info.cc(359)] UncheckedAllocate
+[1228/192257.094:ERROR:process_info.cc(359)] UncheckedAllocate
+[1228/192455.497:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1228/192559.000:ERROR:process_info.cc(359)] UncheckedAllocate
+[1228/192559.000:ERROR:process_info.cc(359)] UncheckedAllocate
+[1228/192559.032:ERROR:process_info.cc(359)] UncheckedAllocate
+[1230/181901.748:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1230/200758.620:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1230/202315.588:ERROR:process_info.cc(359)] UncheckedAllocate
+[1230/202315.751:ERROR:process_info.cc(359)] UncheckedAllocate
+[1230/202316.423:ERROR:process_info.cc(359)] UncheckedAllocate
+[0104/182534.641:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\simon\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\5294d9ea-b6ca-4b0c-99e4-56abb9372a94: O sistema não pode encontrar o caminho especificado. (0x3)
+[0104/182534.721:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\simon\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\ab37da51-680c-43f7-a9d4-784083937ee4: O sistema não pode encontrar o caminho especificado. (0x3)
+[0104/182534.721:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[0104/190624.477:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[0105/181026.522:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[0105/184246.220:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[0108/184132.133:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[0108/184243.546:ERROR:process_info.cc(359)] UncheckedAllocate
+[0108/184243.554:ERROR:process_info.cc(359)] UncheckedAllocate
+[0108/184330.836:ERROR:process_info.cc(359)] UncheckedAllocate
+[0108/193246.137:ERROR:process_info.cc(359)] UncheckedAllocate

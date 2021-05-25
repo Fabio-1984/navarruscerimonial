@@ -1,0 +1,446 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Fonte titulos', cursive;
+  
+  background-color: black;
+  color: #ccccb3;
+  
+
+}
+
+@keyframes mudarFoto {
+  0% {
+    background-image: url(../imagens/fabioviolino.jpg);
+  }
+  40% {
+    background-image: url(../imagens/Valsa.jpg);
+  }
+  60% {
+    background-image: url(../imagens/Dança\ dos\ noivos.jpg);
+  }
+  80% {
+    background-image: url(../imagens/Dupla\ Sax\ e\ Violino.jpg);
+  }
+  100% {
+    background-image: url(../imagens/Dança\ dos\ noivos.jpg);
+  }
+}
+
+@font-face {
+  font-family: Fonte titulos;
+  src: url(../fontes/RomanticaPersonalUse.ttf);
+}
+
+.container{
+     width: 100%;
+     margin: auto;
+
+}
+
+
+
+.fotomenu {
+  width: 180px;
+  height: 100px;
+  float: left;
+  margin-left: 30px;
+  position: fixed;
+  
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(3, 0, 0), rgba(255,0,0,0));
+}
+
+@media screen and (max-width: 500px) {
+  .fotomenu {
+    float: none;
+    text-align: center;
+    margin-left: 150px;
+    
+    position: absolute;
+
+    
+  }
+}
+
+.menus{
+  height: 0%;
+  width: 100%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0); /* Black fallback color */
+  background-color: rgba(0,0,0, 0.5); /* Black w/opacity */
+  overflow-y: hidden; /* Disable horizontal scroll */
+  transition: 0.5s;
+}
+
+
+
+.menus-content{
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px;
+
+
+}
+
+.menus a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #ffffff;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s;
+}
+
+.menus a:hover, .menus a:focus {
+  color: #08f013;
+}
+
+.menus .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 100px) {
+  .menus {overflow-y: auto;}
+  .menus a {font-size: 20px}
+  .menus .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.btn{
+   width: 100px;
+   height: 50px;
+   border-radius: 10px;
+   margin-top: 20px;
+   margin-left: 1220px;
+   font-size: 18px;
+   background-color: rgba(0,0,0, 0.5);
+   color: white;
+   cursor: pointer;
+   position: fixed;
+   
+}
+
+.btn:hover{
+  background-color: #08f013;
+  color: black;
+ 
+
+}
+
+@media screen and (max-width: 600px) {
+  .btn{
+    margin-left: 400px;
+    
+    
+   
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  .btn{
+    margin-left: 200px;
+    margin-top: 110px;
+    
+   
+  }
+}
+
+.logo {
+  width: 70%;
+  height: 520px;
+  margin-left: 20px;
+}
+/*medias Querys*/
+
+@media screen and (max-width: 500px) {
+  .logo {
+    margin: auto;
+    width: 100%;
+  }
+}
+
+
+
+
+/*Menu Home*/
+
+#Home {
+  
+  height: 620px;
+  background-size: 100% 100%;
+  
+  animation-name: mudarFoto;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+@media screen and (max-width: 500px) {
+  #Home {
+    margin: auto;
+    width: 100%;
+  }
+}
+
+/*Menu sobrenós*/
+#Sobrenos {
+  margin-top: 10px;
+
+  padding-top: 60px;
+}
+
+@media screen and (max-width: 500px) {
+  #Sobrenos{
+    
+    text-align: justify;
+    
+  }
+}
+
+.Sob {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.Sobr {
+  text-align: center;
+  margin: 150px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+/*Menu vitrine*/
+#Vitrine {
+  margin-left: 70px;
+  margin-top: 10px;
+  padding-top: 110px;
+}
+
+.im {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  transition: width 5s;
+}
+
+.Vt {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+/*Menu video*/
+.vd {
+  text-align: center;
+
+  font-size: 30px;
+}
+#Videos {
+  margin-top: 20px;
+  padding-top: 100px;
+}
+
+.linkvideos {
+  margin-left: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .linkvideos {
+   
+    margin-left: 15px;
+    padding: 0px;
+   
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .linkvideos {
+    margin: auto;
+    margin-left: 15px;
+    padding: 0px;
+    
+
+    
+  }
+}
+
+.vdo{
+  width: 560px;
+  height: 315px;
+
+}
+
+@media screen and (max-width: 600px) {
+  .vdo{
+   width: 450px;
+   height: 215;
+   
+    
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .vdo{
+   width: 450px;
+   height: 215;
+   
+    
+  }
+}
+
+
+/*Menu faqs*/
+
+#Faqs {
+  margin-top: 60px;
+  padding-top: 60px;
+}
+
+.faq {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.tabela {
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 15px;
+  border-bottom: 1px solid gray;
+  text-align: left;
+  font-size: 18px;
+}
+/*Menu mapa*/
+#contato {
+   
+  margin-top: 0px;
+  
+  padding-top: 5px;
+  
+
+}
+
+@media screen and (max-width: 500px) {
+  #contato {
+   margin-left: 500px;
+    margin: auto;
+  }
+}
+
+
+form {
+ 
+  
+  padding: 5px;
+  max-width: 300px;
+  
+  margin-right: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+input[type='submit'] {
+  color: white;
+  background-color: #00ff00;
+  font-weight: bold;
+  transition: background-color 500ms ease-out, padding 800ms;
+}
+
+input[type='submit']:hover {
+  background-color: black;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+}
+
+textarea {
+  height: 100px;
+}
+
+
+
+.orç{
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ 
+}
+
+
+
+.mp {
+  margin-top: 0;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  padding: 20px;
+  
+  
+}
+
+.end{
+ 
+  max-width: 500px;
+  padding: 30px;
+}
+
+/*Footer(rodapé)*/
+
+
+
+.rodape {
+  background-color: black;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.imgrodape {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.redesocial {
+  margin-top: 20px;
+}
+
+.logradoro {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
