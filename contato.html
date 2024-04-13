@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Navarru´s Cerimonial & Eventos</title>
+
+    <link rel="icon" href="./imagens/Logo titulo1.jpg" type="image/jpg" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device=width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!---Barra de Navegação--->
+        <header>
+
+
+            <nav class="menu">
+                <a href="./index.html"><img class="fotomenu" src="./imagens/Logo Verde fundo transparente.png" />
+                </a>
+
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./sobrenos.html">SOBRE NÓS</a></li>
+                    <li><a href="./vitrine.html">VITRINE</a></li>
+                    <li><a href="./videos.html">VIDEOS</a></li>
+                    <li><a href="./faqs.html">FAQS</a></li>
+                    <li><a href="./contato.html">CONTATO</a></li>
+                </ul>
+
+
+            </nav>
+        </header>
+
+
+        <!---Aqui esta a cessão--->
+
+        <main>
+            <div id="contato">
+                <h1 class="mp">Contato</h1>
+
+                <!--Contato-->
+
+                <div class="orç">
+                    <form name="myForm"  onsubmit="validateForm()">
+                        PEÇA UM ORÇAMENTO
+                        <input id="nome" type="text" name="nome" placeholder="Nome e sobrenome" required />
+                        <input id="email" type="email" name="email" placeholder="E-mail" required />
+                        <input id="tel" type="tel" name="telefone" placeholder="Telefone formato: 55-11-9xxxxxxxx"
+                            pattern="[0-9]{2}-[0-9]{2}-[0-9]{9}" required />
+
+                        <select id="tp" name="tipo de evento" required>
+                            <option value="evento">---Tipo de Evento---</option>
+                            <option value="Aniversário">Aniverário</option>
+                            <option value="Bodas">Bodas</option>
+                            <option value="Casamento">Casamento</option>
+                            <option value="Confraternização">Confraternização</option>
+                            <option value="Debutante/15 anos">Debutante/15 anos</option>
+                            <option value="Evento Corporativo">Evento Corporativo</option>
+                            <option value="Evento Social">Evento Social</option>
+                            <option value="Jantares">Jantares</option>
+                            <option value="Outros">Outros</option>
+                        </select>
+
+                        <input id="data" type="date" name="data" required />
+                        <textarea id="text" name="mensagem" placeholder="Comentário" required></textarea>
+                        <input id="cfr" type="submit" name="enviar" placeholder="Enviar Pedido" />
+                    </form>
+
+                    <iframe class="end"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14639.859873147854!2d-46.683936356552884!3d-23.46172809294599!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5c8f7bcc9ffa70ca!2sNavarru&#39;s%20Cerimonial%20%26%20Eventos!5e0!3m2!1spt-BR!2sbr!4v1610145033171!5m2!1spt-BR!2sbr"
+                        width="600" height="450" frameborder="0" style="border: 0" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+
+        </main>
+
+        <!--Rodapé-->
+        <footer>
+            <div class="rodape">
+                <img class="imgrodape" src="./imagens/Logo em branco fundo transparente.png" height="100" />
+
+                <div class="redesocial">
+                    <a href="https://www.facebook.com/navarruscerimonial/"><img src="./imagens/facebook.png"
+                            width="40" /></a>
+
+                    <a href="https://www.instagram.com/navarrus_cerimonial/"><img src="./imagens/insta.png"
+                            width="50" /></a>
+
+                    <a href="https://youtube.com/channel/UC462pg5H-rJt2thQldYamZA"><img src="./imagens/youtube.png"
+                            width="50" /></a>
+                </div>
+
+                <div class="logradoro">
+                    <p>Avenida Deputado Cantídio Sampaio, 2145</p>
+
+                    <p>São Paulo (São Paulo) 02860-001</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
