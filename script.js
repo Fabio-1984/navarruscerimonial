@@ -45,7 +45,7 @@ function envia(){
    
    }else {
        alert('Dados enviados com sucesso. Em breve retornaremos')
-       document.forms["cadCli"].submit()
+       document.forms["myForm"].submit()
        
    }
  
