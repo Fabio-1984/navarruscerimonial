@@ -327,7 +327,7 @@ form {
   
 }
 
-input[type='submit'] {
+input[type='button'] {
   color: black;
   background-color: #00ff00;
   font-weight: bold;
