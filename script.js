@@ -44,7 +44,8 @@ function validateForm(){
      return false  
    
    }else {
-       alert('Dados enviados com sucesso. Em breve retornaremos')
+       alert('Dados enviados com sucesso. Em breve retornaremos');
+    return false
        //document.forms["myForm"].submit()
        
       
