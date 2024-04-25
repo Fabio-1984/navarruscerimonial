@@ -1,4 +1,4 @@
-function envia(){
+function funcao(){
  
    let nome = myForm.nome.value
    let email = myForm.email.value
@@ -45,7 +45,7 @@ function envia(){
    
    }else {
 
-        document.forms["myForm"].submit()
+        //document.forms["myForm"].submit()
        alert('Dados enviados com sucesso. Em breve retornaremos')
       
   
