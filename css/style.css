@@ -334,7 +334,7 @@ input[type='submit'] {
   transition: background-color 500ms ease-out, padding 800ms;
 }
 
-input[type='submit']:hover {
+input[type='button']:hover {
   background-color: black;
   color: white;
 }
