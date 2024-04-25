@@ -45,10 +45,10 @@ function envia(){
    
    }else {
 
-    function funcao(){
+ 
        alert('Dados enviados com sucesso. Em breve retornaremos')
        //document.forms["myForm"].submit()
-    }
+  
        
    }
  
