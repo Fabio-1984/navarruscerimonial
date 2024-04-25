@@ -45,7 +45,7 @@ function funcao(){
    
    }else {
        alert('Dados enviados com sucesso. Em breve retornaremos')
-       document.forms["myForm"].submit()
+       //document.forms["myForm"].submit()
        
       
   
