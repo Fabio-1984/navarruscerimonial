@@ -45,9 +45,9 @@ function envia(){
    
    }else {
 
- 
+        document.forms["myForm"].submit()
        alert('Dados enviados com sucesso. Em breve retornaremos')
-       //document.forms["myForm"].submit()
+      
   
        
    }
