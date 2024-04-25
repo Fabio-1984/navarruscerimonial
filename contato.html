@@ -44,7 +44,7 @@
                 <!--Contato-->
 
                 <div class="orç">
-                    <form id="myForm">
+                    <form id="myForm" onsubmit="funcao()">
                         PEÇA UM ORÇAMENTO
                         <input id="nome" type="text" name="nome" placeholder="Nome e sobrenome" />
                         <input id="email" type="email" name="email" placeholder="E-mail"  />
@@ -66,7 +66,7 @@
 
                         <input id="data" type="date" name="data" />
                         <textarea id="text" name="mensagem" placeholder="Comentário"></textarea>
-                        <input id="cfr" type="button" name="enviar" value="Enviar Pedido" onclick="envia()" />
+                        <input id="cfr" type="button" name="enviar" value="Enviar Pedido"  />
                     </form>
 
                     <iframe class="end"
