@@ -1,4 +1,4 @@
-function funcao(){
+function validateForm(){
  
    let nome = myForm.nome.value
    let email = myForm.email.value
