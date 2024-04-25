@@ -327,14 +327,14 @@ form {
   
 }
 
-input[type='button'] {
+input[type='submit'] {
   color: black;
   background-color: #00ff00;
   font-weight: bold;
   transition: background-color 500ms ease-out, padding 800ms;
 }
 
-input[type='button']:hover {
+input[type='submit']:hover {
   background-color: black;
   color: white;
 }
