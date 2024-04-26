@@ -318,6 +318,7 @@ form {
   text-align: center;
   font-size: 18px;
   color: white;
+  margin-left: 50px;
 }
 
 @media screen and (max-width: 500px){
