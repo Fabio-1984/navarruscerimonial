@@ -305,7 +305,7 @@ td {
 
   display: flex;
   flex-direction: column;
-  /*align-item: center;*/
+  align-item: center;
   max-width: 800px;
  
   
