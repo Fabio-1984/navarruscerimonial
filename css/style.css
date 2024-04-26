@@ -295,7 +295,7 @@ td {
 
 /*Menu mapa*/
 #conteudo {
- align-items: center;
+ text-align: center;
  
 }
 
@@ -303,7 +303,7 @@ td {
 
   display: flex;
   flex-direction: column;
-  
+  align-items: center;
   
    
 }
