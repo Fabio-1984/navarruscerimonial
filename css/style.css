@@ -295,7 +295,7 @@ td {
 
 /*Menu mapa*/
 #conteudo {
- 
+  box-sizing: border-box;
  
 }
 
@@ -304,6 +304,7 @@ td {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
   margin-left: 50px
   
  
