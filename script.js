@@ -12,18 +12,18 @@ nome.addEventListener("change", function(change){
     let valor = evento.target.value 
 
     if (valor.length <3){
-        usernameCadastro.classList.remove('correct');
-        usernameCadastro.classList.add('error');
-        usernameHelper.innerText = 'Seu nome deve ter 3 ou mais caracteres'
-        usernameHelper.classList.add('visible')
-        inputsValidos.usernameCadastro = false
+        nome.classList.remove('correct');
+        nome.classList.add('error');
+        nome.innerText = 'Seu nome deve ter 3 ou mais caracteres'
+        nome.classList.add('visible')
+        nome.usernameCadastro = false
     } 
     else {
     //Estilos dinamicos caso o valor seja válido
-        usernameCadastro.classList.remove('error');
-        usernameHelper.classList.remove('visible');
-        usernameCadastro.classList.add('correct');
-        inputsValidos.usernameCadastro = true
+        nome.classList.remove('error');
+        nome.classList.remove('visible');
+        nome.classList.add('correct');
+        inputsValidos.nome = true
     }
 })
 
