@@ -362,7 +362,7 @@ label{
 .orç {
 
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
   justify-content: space-around;
 
 }
