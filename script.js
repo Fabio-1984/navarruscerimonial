@@ -1,4 +1,4 @@
-   let nome = document.querySelector('#nome');
+   let nome = document.getElementById('#nome');
    let email = document.querySelector('#email');
    let telefone = document.querySelector('#tel');
    let tipo_de_evento = document.querySelector('#tp');
