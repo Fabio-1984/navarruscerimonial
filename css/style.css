@@ -307,7 +307,7 @@ td {
   flex-direction: column;
   /*align-item: center;*/
   max-width: 800px;
-  margin-left: 0;
+ 
   
 }
 
@@ -373,7 +373,7 @@ textarea {
 
 .end {
 
-  max-width: 500px;
+  max-width: 300px;
   padding: 30px;
   border-radius: 10px;
 }
