@@ -354,7 +354,9 @@ textarea {
   height: 100px;
 }
 
-
+label{
+  color: white;
+}
 
 .orç {
 
