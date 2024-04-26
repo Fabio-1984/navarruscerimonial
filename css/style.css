@@ -303,9 +303,9 @@ td {
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
-  margin-left: 50px  
+   
 }
 
 @media screen and (max-width: 500px) {
