@@ -374,6 +374,7 @@ textarea {
 .end {
 
   max-width: 500px;
+  margin-left: 0;
   padding: 30px;
   border-radius: 10px;
 }
