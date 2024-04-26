@@ -10,16 +10,51 @@ formulario.addEventListener('submit', (evento) => {
    let  mensagem = document.querySelector('#text');
 
 
- var x = document.forms["myForm"]["nome","email","telefone","tipo_de_evento","data","mensagem"].value;
- if(x == ""){
-   alert("Dados não enviados verifique se não tem nenhum campo vazio, pois o preenchimento é obrigatório.");
-    return false;
+  if (nome === ""){
    
- }else{
+     alert('Preencha o campo nome')
+    
+     return false
+   
+   }else if (email === ""){
+   
+     alert('Preencha o campo email')
+     
+     return false
+   
+   }else if (telefone === ""){
+   
+     alert('Preencha o campo telefone')
+    
+     return false
+   
+   }else if (tipoDeEvento === ""){
+   
+     alert('Selecione um tipo de evento')
+    
+     return false
 
-    alert('Dados enviados com sucesso. Entraremos em contato o mais breve possíve. Obrigado!')
- }
+   }else if (data === ""){
+   
+     alert('Selecione a data')
+     
+     return false
 
+   }else if (mensagem === ""){
+   
+     alert('Selecione a data')
+     
+     return false  
+   
+   }else {
+       alert('Dados enviados com sucesso. Em breve retornaremos');
+    return false
+       //document.forms["myForm"].submit()
+       
+      
+  
+       
+   }
  
   evento.preventDefault()
  
