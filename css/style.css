@@ -295,13 +295,10 @@ td {
 
 /*Menu mapa*/
 #contato {
-  display: flex;
-  align-items: center;
+ 
   margin-top: 0px;
 
   padding-top: 5px;
-
-
 }
 
 .orç {
@@ -309,9 +306,7 @@ td {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  padding: 50px;
-
-
+  
 }
 
 @media screen and (max-width: 500px) {
@@ -321,6 +316,10 @@ td {
   }
 }
 
+
+.orç>form, .end{
+  padding: 50px;
+}
 
 form {
   padding: 5px;
