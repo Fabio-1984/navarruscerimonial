@@ -7,7 +7,7 @@
 
 
 
-nome.addEventListener("change", function(evento){
+nome.addEventListener("change", function(change){
 
     let valor = evento.target.value 
 
