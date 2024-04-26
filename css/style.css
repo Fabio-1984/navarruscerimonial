@@ -361,9 +361,7 @@ label{
 
 .orç {
 
-  display: flex;
-  flex-wrap: no-wrap;
-  justify-content: space-around;
+  display: block;
 
 }
 
