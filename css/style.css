@@ -296,9 +296,18 @@ td {
 /*Menu mapa*/
 #contato {
 
+  display: flex;
+  align-items: center;
   margin-top: 0px;
 
   padding-top: 5px;
+
+
+}
+
+.orç {
+
+  
 
 
 }
@@ -318,7 +327,7 @@ form {
   text-align: center;
   font-size: 18px;
   color: white;
-  margin-left: 50px;
+
 }
 
 @media screen and (max-width: 500px){
@@ -359,15 +368,6 @@ label{
   color: white;
   font-size: 5px;
 }
-
-.orç {
-
-  display: flex;
-  justify-content: center;
-
-}
-
-
 
 .mp {
   margin-top: 0;
