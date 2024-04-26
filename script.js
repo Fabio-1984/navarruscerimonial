@@ -1,63 +1,32 @@
-let formulario = document.querySelector('#myForm');
-formulario.addEventListener('submit', (evento) => {
-
-   let nome = document.querySelector('#nome').value;
-   let email = document.querySelector('#email').value;
-   let telefone = document.querySelector('#tel').value;
-   let tipo_de_evento = document.querySelector('#tp').value;
-   let data = document.querySelector('#data').value;
-   let  mensagem = document.querySelector('#text').value;
+   let nome = document.querySelector('#nome');
+   let email = document.querySelector('#email');
+   let telefone = document.querySelector('#tel');
+   let tipo_de_evento = document.querySelector('#tp');
+   let data = document.querySelector('#data');
+   let  mensagem = document.querySelector('#text');
 
 
-  if (nome === ""){
-   
-     alert('Preencha o campo nome')
-    
-     return false
-   
-   }else if (email === ""){
-   
-     alert('Preencha o campo email')
-     
-     return false
-   
-   }else if (telefone === ""){
-   
-     alert('Preencha o campo telefone')
-    
-     return false
-   
-   }else if (tipoDeEvento === ""){
-   
-     alert('Selecione um tipo de evento')
-    
-     return false
 
-   }else if (data === ""){
-   
-     alert('Selecione a data')
-     
-     return false
+nome.addEventListener("change", function(evento){
 
-   }else if (mensagem === ""){
-   
-     alert('Selecione a data')
-     
-     return false  
-   
-   }else {
-       alert('Dados enviados com sucesso. Em breve retornaremos');
-    return false
-       //document.forms["myForm"].submit()
-       
-      
-  
-       
-   }
- 
-  evento.preventDefault()
- 
+    let valor = evento.target.value 
+
+    if (valor.length <3){
+        usernameCadastro.classList.remove('correct');
+        usernameCadastro.classList.add('error');
+        usernameHelper.innerText = 'Seu nome deve ter 3 ou mais caracteres'
+        usernameHelper.classList.add('visible')
+        inputsValidos.usernameCadastro = false
+    } 
+    else {
+    //Estilos dinamicos caso o valor seja válido
+        usernameCadastro.classList.remove('error');
+        usernameHelper.classList.remove('visible');
+        usernameCadastro.classList.add('correct');
+        inputsValidos.usernameCadastro = true
+    }
 })
+
 
 
 
