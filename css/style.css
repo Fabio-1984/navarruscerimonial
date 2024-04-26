@@ -306,6 +306,7 @@ td {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  align-items: center;
   
 }
 
@@ -314,11 +315,6 @@ td {
     margin-left: 500px;
     margin: auto;
   }
-}
-
-
-.orç>form, .end{
-  padding: 50px;
 }
 
 form {
