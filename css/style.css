@@ -295,9 +295,6 @@ td {
 
 /*Menu mapa*/
 #contato {
-
-  display: flex;
-  align-items: center;
   margin-top: 0px;
 
   padding-top: 5px;
