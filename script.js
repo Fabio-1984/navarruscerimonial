@@ -1,59 +1,19 @@
-function validateForm(){
- 
-   let nome = myForm.nome.value
-   let email = myForm.email.value
-   let telefone = myForm.telefone.value
-   let tipo_de_evento = myForm.tipoDeEvento.value
-   let data = myForm.data.value
-   let  mensagem = myForm.mensagem.value
-   
-   if (nome === ""){
-   
-     alert('Preencha o campo nome')
-     myForm.nome.focus()
-     return false
-   
-   }else if (email === ""){
-   
-     alert('Preencha o campo email')
-     myForm.email.focus()
-     return false
-   
-   }else if (telefone === ""){
-   
-     alert('Preencha o campo telefone')
-     myForm.htelefone.focus()
-     return false
-   
-   }else if (tipoDeEvento === ""){
-   
-     alert('Selecione um tipo de evento')
-     myForm.tipoCliente.focus()
-     return false
 
-   }else if (data === ""){
-   
-     alert('Selecione a data')
-     myForm.tipoCliente.focus()
-     return false
+let formulario = document.querySelector('#myForm');
+formulario.addEventListener('submit', (evento) => {
 
-   }else if (mensagem === ""){
-   
-     alert('Selecione a data')
-     myForm.tipoCliente.focus()
-     return false  
-   
-   }else {
-       alert('Dados enviados com sucesso. Em breve retornaremos');
-    return false
-       //document.forms["myForm"].submit()
-       
-      
-  
-       
-   }
+   let nome = document.querySelector('#nome');
+   let email = document.querySelector('#email');
+   let telefone = document.querySelector('#tel');
+   let tipo_de_evento = document.querySelector('#tp');
+   let data = document.querySelector('#data');
+   let  mensagem = document.querySelector('#text');
+
  
- }
+
+ 
+})
+
 
 
 
