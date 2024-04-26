@@ -305,7 +305,7 @@ td {
 
 }
 
-#contato>.orç {
+.orç {
 
   display: flex;
   flex-direction: column;
