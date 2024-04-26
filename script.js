@@ -10,7 +10,7 @@ formulario.addEventListener('submit', (evento) => {
    let  mensagem = document.querySelector('#text');
 
  
-
+  evento.preventDefault()
  
 })
 
