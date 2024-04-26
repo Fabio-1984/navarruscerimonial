@@ -295,7 +295,7 @@ td {
 
 /*Menu mapa*/
 #conteudo {
-  
+  margin-left: 50px
  
 }
 
@@ -305,11 +305,7 @@ td {
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
-  margin-left: 50px
-  margin-top: 20px
-  
- 
-  
+    
 }
 
 @media screen and (max-width: 500px) {
