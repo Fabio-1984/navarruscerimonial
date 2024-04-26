@@ -298,7 +298,6 @@ td {
 
   display: flex;
   align-items: center;
-  flex-direction: column;
   margin-top: 0px;
 
   padding-top: 5px;
@@ -306,9 +305,10 @@ td {
 
 }
 
-.orç {
+#contato>.orç {
 
-  
+  display: flex;
+  flex-direction: column;
 
 
 }
