@@ -27,6 +27,7 @@ nome.addEventListener("change", function(evento){
     }
 })
 
+mostrarPopUp(nome);
 
 
 
