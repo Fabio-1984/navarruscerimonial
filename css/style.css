@@ -337,6 +337,8 @@ input[type='submit'] {
   background-color: #00ff00;
   font-weight: bold;
   transition: background-color 500ms ease-out, padding 800ms;
+  border: solid 2px;
+  border-radius: 5px
   
 }
 
