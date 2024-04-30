@@ -294,22 +294,23 @@ td {
 }
 
 /*Menu mapa*/
-#conteudo {
- text-align: center;
+#contacto {
+
  
 }
 
-.orç {
-
+#orç {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin: auto;
+  margin-left: 250px;
    
 }
 
 @media screen and (max-width: 500px) {
-  #contato {
+  #orç {
+    display: flex;
+    flex-direction: column;
     margin-left: 500px;
     margin: auto;
   }
@@ -317,11 +318,12 @@ td {
 
 form {
   padding: 5px;
-  max-width: 400px;
+  max-width: 470px;
   margin-right: 40px;
   text-align: center;
   font-size: 18px;
   color: white;
+  
 
 }
 
@@ -337,13 +339,13 @@ input[type='submit'] {
   background-color: #00ff00;
   font-weight: bold;
   transition: background-color 500ms ease-out, padding 800ms;
-
+  width: 300px;
   
 }
 
 
 input[type='submit']:hover {
-  background-color: black;
+  background-color:  gray;
   color: white;
   
  
@@ -351,18 +353,23 @@ input[type='submit']:hover {
 
 input,
 textarea,
-select {
+select, form-control {
   width: 100%;
   box-sizing: border-box;
   margin-top: 15px;
   padding: 12px;
   border: none;
   border-radius: 10px;
+  
 }
 
 textarea {
   height: 100px;
 }
+
+
+
+
 
 .mp {
   margin-top: 0;
@@ -376,6 +383,14 @@ textarea {
 .end {
   padding: 30px;
   border-radius: 10px;
+  margin-left: -25px;
+}
+
+@media screen and (max-width: 500px){
+  .end{
+     margin-left: -10px;
+  }
+  
 }
 
 /*Footer(rodapé)*/
@@ -387,6 +402,7 @@ textarea {
   text-align: center;
   padding-top: 10px;
   overflow: hidden;
+  margin: auto;
 }
 
 .imgrodape {
@@ -403,3 +419,19 @@ textarea {
   margin-bottom: 20px;
   font-size: 18px;
 }
+
+
+/* ----- Estilos dinâmicos ----- */
+  
+
+.span-required{
+  font-size: 12px;
+  padding-left: 1px;
+  color: red;
+  display: none;
+  
+
+}
+
+
+
